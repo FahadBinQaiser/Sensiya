@@ -10,15 +10,15 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-            Design with the power of{' '}
+          Design without limits using the {' '}
             <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">
               Artificial Intelligence
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-            Transform your creative process with AI-powered design tools. Create stunning visuals, 
-            layouts, and experiences in seconds, not hours.
+            An intelligent design platform built for speed and clarity,
+            powered by AI to accelerate every creative workflow
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
