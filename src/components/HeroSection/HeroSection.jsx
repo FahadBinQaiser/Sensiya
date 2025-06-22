@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
         <div className="text-center">
           <div className="inline-flex items-center bg-white/60 backdrop-blur-sm border border-gray-200 rounded-full px-4 py-2 mb-8 hover:bg-white/80 transition-colors duration-200">
-            <span className="text-sm font-medium text-gray-700">✨ New: AI-powered templates now available</span>
+            <span className="text-sm font-medium text-gray-700">New: AI-powered templates now available</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
@@ -22,7 +22,7 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <button className="group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2">
+            <button className="cursor-pointer  group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2">
               <span>Start Creating Free</span>
               <svg
                 className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200"
@@ -36,7 +36,7 @@ const HeroSection = () => {
               </svg>
             </button>
 
-            <button className="group flex items-center space-x-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 px-8 py-4 text-lg font-semibold">
+            <button className="group flex items-center space-x-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 px-8 py-4 text-lg font-semibold cursor-pointer ">
               <div className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-md group-hover:shadow-lg transition-shadow duration-200">
                 <svg
                   className="w-5 h-5 ml-1"
