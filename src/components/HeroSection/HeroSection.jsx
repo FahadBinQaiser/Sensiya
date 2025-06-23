@@ -1,5 +1,4 @@
 import React from 'react';
-
 const HeroSection = () => {
   return (
     
@@ -50,19 +49,6 @@ const HeroSection = () => {
                 </div>
                 <span>Watch Demo</span>
               </button>
-            </div>
-
-            <div className="relative max-w-5xl mx-auto">
-              <div className="bg-gradient-to-r from-indigo-500/20 to-purple-500/20 rounded-3xl p-2">
-                <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
-                  <div className="h-96 bg-gradient-to-br from-indigo-100 via-purple-50 to-cyan-50 flex items-center justify-center">
-                    
-                  </div>
-                </div>
-              </div>
-
-              <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full opacity-20 blur-xl"></div>
-              <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-gradient-to-r from-pink-400 to-purple-500 rounded-full opacity-20 blur-xl"></div>
             </div>
           </div>
         </div>
