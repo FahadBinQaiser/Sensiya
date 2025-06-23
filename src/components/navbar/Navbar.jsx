@@ -16,7 +16,7 @@ const Navbar = () => {
               </span>
             </div>
 
-            <div className="hidden md:block">
+            <div className="hidden space-grotesk md:block">
               <div className="ml-10 flex items-baseline space-x-8">
                 <a href="#features" className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                   Features
@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex items-center space-x-4">
-              <button className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+              <button className="text-gray-700 space-grotesk hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Sign In
               </button>
               <button className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200 font-medium">
