@@ -6,22 +6,22 @@ const HeroSection = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
           <div className="text-center">
             <div className="inline-flex items-center bg-white/60 backdrop-blur-sm border border-gray-200 rounded-full px-4 py-2 mb-8 hover:bg-white/80 transition-colors duration-200">
-              <span className="text-sm font-medium text-gray-700">New: AI-powered templates now available</span>
+              <span className="text-sm font-medium space-grotesk text-gray-700">New: AI-powered templates now available</span>
             </div>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl text-gray-900 mb-6">
               Design without limits using the{' '}
               <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">
                 Artificial Intelligence
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-600 mb-10 space-grotesk max-w-3xl mx-auto leading-relaxed">
               An intelligent design platform built for speed and clarity,
               powered by AI to accelerate every creative workflow
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+            <div className="flex flex-col space-grotesk sm:flex-row gap-4 justify-center items-center mb-16">
               <button className="cursor-pointer group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2">
                 <span>Start Creating Free</span>
                 <svg
