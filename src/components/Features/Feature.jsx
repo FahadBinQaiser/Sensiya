@@ -70,10 +70,10 @@ const Features = () => {
                 />
               </div>
 
-              <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300">
+              <h3 className="text-3xl text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300">
                 {title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">{description}</p>
+              <p className="text-gray-600 space-grotesk leading-relaxed">{description}</p>
             </div>
           ))}
         </div>
