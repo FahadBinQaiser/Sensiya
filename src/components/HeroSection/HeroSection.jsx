@@ -21,8 +21,8 @@ const HeroSection = () => {
               powered by AI to accelerate every creative workflow
             </p>
 
-            <div className="flex flex-col space-grotesk sm:flex-row gap-4 justify-center items-center mb-16">
-              <button className="cursor-pointer group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+              <button className="cursor-pointer group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2">
                 <span>Start Creating Free</span>
                 <svg
                   className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200"
