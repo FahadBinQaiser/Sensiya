@@ -43,7 +43,6 @@ const Features = () => {
   return (
     <section id="features" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Powerful features for{' '}
@@ -57,14 +56,12 @@ const Features = () => {
           </p>
         </div>
 
-        {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map(({ image, title, description }, index) => (
             <div
               key={index}
               className="group p-8 bg-gradient-to-br from-gray-50 to-white border border-gray-100 rounded-2xl hover:shadow-xl hover:shadow-indigo-100/50 hover:border-indigo-200 transition-all duration-300 hover:-translate-y-1"
             >
-              {/* Illustration */}
               <div className="flex items-center justify-center w-16 h-16 p-4 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl text-white mb-6 group-hover:scale-110 transition-transform duration-300">
                 <img
                   src={image}
@@ -73,7 +70,6 @@ const Features = () => {
                 />
               </div>
 
-              {/* Text */}
               <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300">
                 {title}
               </h3>
