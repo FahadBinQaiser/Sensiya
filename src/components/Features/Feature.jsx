@@ -21,19 +21,19 @@ const Features = () => {
         'AI-curated color schemes that perfectly match your brand and create visual harmony across all designs.',
     },
     {
-      image: '/illustrations/intelligent-layout.svg',
+      image: '/illustrations/AI.png',
       title: 'Intelligent Layout',
       description:
         'Advanced algorithms ensure perfect composition, spacing, and visual hierarchy in every design.',
     },
     {
-      image: '/illustrations/multi-format.svg',
+      image: '/illustrations/export.png',
       title: 'Multi-Format Export',
       description:
         'Export your designs in any format you need — PNG, SVG, PDF, or directly to your favorite platforms.',
     },
     {
-      image: '/illustrations/style-adapt.svg',
+      image: '/illustrations/diamond.png',
       title: 'Style Adaptation',
       description:
         'Transform existing designs into different styles and formats while maintaining brand consistency.',
