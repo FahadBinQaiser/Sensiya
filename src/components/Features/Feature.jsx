@@ -44,14 +44,14 @@ const Features = () => {
     <section id="features" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Powerful features for{' '}
-            <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl luckiest-guy md:text-5xl lg:text-6xl text-gray-900 mb-6">
+            Powerful features for <br />
+            <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">
               modern creators
             </span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Everything you need to create exceptional designs, powered by
+          <p className="text-xl space-grotesk text-gray-600 max-w-3xl mx-auto">
+            Everything you need to create exceptional designs, <br /> powered by
             cutting-edge AI technology
           </p>
         </div>
