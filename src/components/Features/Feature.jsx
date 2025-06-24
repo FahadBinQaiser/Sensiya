@@ -9,13 +9,13 @@ const Features = () => {
         'Generate stunning designs with simple text prompts. Our AI understands your vision and brings it to life instantly.',
     },
     {
-      image: '/illustrations/lightning-fast.svg',
+      image: '/illustrations/time.png',
       title: 'Lightning Fast',
       description:
         'Create professional designs in seconds. No more waiting hours for revisions or starting from scratch.',
     },
     {
-      image: '/illustrations/smart-colors.svg',
+      image: '/illustrations/idea.png',
       title: 'Smart Color Palettes',
       description:
         'AI-curated color schemes that perfectly match your brand and create visual harmony across all designs.',
