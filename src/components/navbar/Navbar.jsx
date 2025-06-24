@@ -37,7 +37,7 @@ const Navbar = () => {
               <button className="text-gray-700 space-grotesk hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Sign In
               </button>
-              <button className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200 font-medium">
+              <button className="bg-gradient-to-r space-grotesk from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200 font-medium">
                 Get Started
               </button>
             </div>
@@ -81,7 +81,7 @@ const Navbar = () => {
                 <button className="w-full text-left text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                   Sign In
                 </button>
-                <button className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-200 font-medium">
+                <button className="cursor-pointer w-full space-grotesk text-center group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex justify-center items-center space-x-2">
                   Get Started
                 </button>
               </div>
