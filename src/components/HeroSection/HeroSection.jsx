@@ -36,7 +36,7 @@ const HeroSection = () => {
                 </svg>
               </button>
 
-              <button className="group flex items-center space-x-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 px-8 py-4 text-lg font-semibold cursor-pointer">
+              <button className="group space-grotesk flex items-center space-x-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 px-8 py-4 text-lg font-semibold cursor-pointer">
                 <div className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-md group-hover:shadow-lg transition-shadow duration-200">
                   <svg
                     className="w-5 h-5 ml-1"
