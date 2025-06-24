@@ -63,25 +63,25 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-gray-100">
-            <div className="px-2 text-2xl">
-              <a href="#features" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+          <div className="md:hidden bg-white/95 backdrop-blur-3xl relative  border-t border-gray-100">
+            <div className="px-2 text-3xl pt-4 inline-flex flex-col absolute top-0 right-0 w-full bg-white h-screen">
+              <a href="#features" className="flex-col px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Features
               </a>
-              <a href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+              <a href="#testimonials" className="flex-col px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Reviews
               </a>
-              <a href="#pricing" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+              <a href="#pricing" className="flex-col px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Pricing
               </a>
-              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+              <a href="#contact" className="flex-col px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Contact
               </a>
               <div className="pt-4 pb-2 space-y-2 px-3">
                 <button className="w-full text-left text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                   Sign In
                 </button>
-                <button className="cursor-pointer w-full space-grotesk text-center group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex justify-center items-center space-x-2">
+                <button className="cursor-pointer space-grotesk text-center group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-xl hover:shadow-xl hover:scale-105 transition-all duration-200 inline-flex w-full justify-center items-center space-x-2">
                   Get Started
                 </button>
               </div>
