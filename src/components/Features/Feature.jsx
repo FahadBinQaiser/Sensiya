@@ -50,7 +50,7 @@ const Features = () => {
               modern creators
             </span>
           </h2>
-          <p className="text-xl space-grotesk text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl space-grotesk text-gray-700 max-w-3xl mx-auto">
             Everything you need to create exceptional designs, <br /> powered by
             cutting-edge AI technology
           </p>
@@ -73,7 +73,7 @@ const Features = () => {
               <h3 className="text-3xl text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300">
                 {title}
               </h3>
-              <p className="text-gray-600 space-grotesk leading-relaxed">{description}</p>
+              <p className="text-gray-700 space-grotesk leading-relaxed">{description}</p>
             </div>
           ))}
         </div>
