@@ -87,27 +87,27 @@ const Pricing = () => {
               )}
 
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">{plan.name}</h3>
-                <p className="text-gray-600 mb-4">{plan.description}</p>
-                <div className="mb-4">
-                  <span className="text-4xl font-bold text-gray-900">{plan.price}</span>
+                <h3 className="text-4xl text-gray-900 mb-2">{plan.name}</h3>
+                <p className="text-gray-700 space-grotesk mb-4">{plan.description}</p>
+                <div className="mb-4 space-grotesk">
+                  <span className="text-4xl text-gray-900">{plan.price}</span>
                   {plan.period && (
                     <span className="text-gray-500 ml-2">/{plan.period}</span>
                   )}
                 </div>
               </div>
 
-              <ul className="space-y-4 mb-8">
+              <ul className="space-y-4 space-grotesk mb-8">
                 {plan.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-start space-x-3">
                     <span className="text-green-500 mt-0.5">✔</span>
-                    <span className="text-gray-700">{feature}</span>
+                    <span>{feature}</span>
                   </li>
                 ))}
               </ul>
 
-              <button
-                className={`w-full py-4 px-6 rounded-full font-semibold transition-all duration-200 ${plan.buttonStyle}`}
+             <button
+                className={`w-full py-4 px-6 rounded-full text-lg space-grotesk transition-all duration-200 ${plan.buttonStyle}`}
               >
                 {plan.buttonText}
               </button>
@@ -115,7 +115,7 @@ const Pricing = () => {
           ))}
         </div>
 
-        <div className="text-center mt-16">
+        <div className="text-center mt-16"> 
           <p className="text-gray-600 mb-4">All plans include a 14-day free trial. No credit card required.</p>
           <div className="flex justify-center items-center space-x-6 text-sm text-gray-500">
             <span>✓ Cancel anytime</span>
