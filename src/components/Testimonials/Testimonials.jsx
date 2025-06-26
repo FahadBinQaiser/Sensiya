@@ -37,7 +37,6 @@ const Testimonials = () => {
       className="py-24 bg-gradient-to-r from-indigo-50 to-purple-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Loved by{' '}
@@ -50,19 +49,16 @@ const Testimonials = () => {
           </p>
         </div>
 
-        {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((t, idx) => (
             <div
               key={idx}
               className="bg-white/70 backdrop-blur-sm border border-white/50 rounded-2xl p-8 hover:shadow-xl hover:shadow-indigo-100/50 transition-all duration-300 hover:-translate-y-1"
             >
-              {/* Text */}
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 {t.content}
               </p>
 
-              {/* Author */}
               <div className="flex items-center space-x-4">
                 <img
                   src={t.image}
@@ -80,7 +76,6 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* Stats footer */}
         <div className="text-center mt-16">
           <div className="inline-flex items-center space-x-8 bg-white/60 backdrop-blur-sm border border-white/50 rounded-2xl px-8 py-4">
             {[
