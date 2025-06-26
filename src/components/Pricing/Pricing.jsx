@@ -80,8 +80,7 @@ const Pricing = () => {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="flex items-center space-x-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-4 py-2 rounded-full text-sm font-medium">
-                    <span className="text-lg">🔥</span>
+                  <div className="flex items-center space-x-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-4 py-2 rounded-full text-xl space-grotesk w-40 h-10 text-center font-medium">
                     <span>Most Popular</span>
                   </div>
                 </div>
