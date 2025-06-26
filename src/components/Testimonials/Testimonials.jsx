@@ -38,13 +38,13 @@ const Testimonials = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
-          <h2 className="text-4xl luckiest-guy md:text-6xl lg:text-7xl text-gray-900 mb-4">
+          <h2 className="text-5xl luckiest-guy md:text-6xl lg:text-7xl text-gray-900 mb-4">
             Loved by{' '}
             <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">
               thousands of creators
             </span>
           </h2>
-          <p className="text-xl space-grotesk text-gray-700">
+          <p className="text-lg sm:text-2xl space-grotesk text-gray-700">
             See what our community has to say about their experience with DesignAI
           </p>
         </div>
@@ -67,7 +67,7 @@ const Testimonials = () => {
                 />
                 <div className='space-grotesk'>
                   <p className="text-gray-900">{t.name}</p>
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-gray-700 text-sm">
                     {t.role} • {t.company}
                   </p>
                 </div>
