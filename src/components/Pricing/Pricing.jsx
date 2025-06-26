@@ -116,11 +116,11 @@ const Pricing = () => {
         </div>
 
         <div className="text-center mt-16"> 
-          <p className="text-gray-600 mb-4">All plans include a 14-day free trial. No credit card required.</p>
-          <div className="flex justify-center items-center space-x-6 text-sm text-gray-500">
-            <span>✓ Cancel anytime</span>
-            <span>✓ 30-day money-back guarantee</span>
-            <span>✓ 24/7 support</span>
+          <p className="text-3xl sm:text-4xl mb-4">All plans include a 14-day free trial, No credit card required.</p>
+          <div className="flex justify-center space-grotesk items-center space-x-6 text-lg">
+            <span>Cancel anytime</span>
+            <span>30-day money-back guarantee</span>
+            <span>24/7 support</span>
           </div>
         </div>
       </div>
