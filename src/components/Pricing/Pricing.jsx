@@ -101,7 +101,7 @@ const Pricing = () => {
               <ul className="space-y-4 mb-8">
                 {plan.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-start space-x-3">
-                    <span className="text-green-500 mt-0.5">✅</span>
+                    <span className="text-green-500 mt-0.5">✔</span>
                     <span className="text-gray-700">{feature}</span>
                   </li>
                 ))}
