@@ -56,7 +56,6 @@ const Pricing = () => {
   return (
     <section id="pricing" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Simple, transparent{' '}
@@ -69,7 +68,6 @@ const Pricing = () => {
           </p>
         </div>
 
-        {/* Plans */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div
@@ -118,7 +116,6 @@ const Pricing = () => {
           ))}
         </div>
 
-        {/* Footer */}
         <div className="text-center mt-16">
           <p className="text-gray-600 mb-4">All plans include a 14-day free trial. No credit card required.</p>
           <div className="flex justify-center items-center space-x-6 text-sm text-gray-500">
