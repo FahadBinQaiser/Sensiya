@@ -55,7 +55,7 @@ const Testimonials = () => {
               key={idx}
               className="bg-white/70 backdrop-blur-sm border border-white/50 rounded-2xl p-8 hover:shadow-xl hover:shadow-indigo-100/50 transition-all duration-300 hover:-translate-y-1"
             >
-              <p className="text-gray-700 text-lg leading-relaxed mb-6">
+              <p className="text-gray-700 text-lg space-grotesk leading-relaxed mb-6">
                 {t.content}
               </p>
 
@@ -65,8 +65,8 @@ const Testimonials = () => {
                   alt={t.name}
                   className="w-12 h-12 rounded-full object-cover"
                 />
-                <div>
-                  <p className="font-semibold text-gray-900">{t.name}</p>
+                <div className='space-grotesk'>
+                  <p className="text-gray-900">{t.name}</p>
                   <p className="text-gray-600 text-sm">
                     {t.role} • {t.company}
                   </p>
@@ -85,8 +85,8 @@ const Testimonials = () => {
             ].map(([num, label]) => (
               <React.Fragment key={label}>
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-gray-900">{num}</p>
-                  <p className="text-gray-600 text-sm">{label}</p>
+                  <p className="text-3xl text-gray-900">{num}</p>
+                  <p className="text-gray-700 space-grotesk text-sm">{label}</p>
                 </div>
                 {label !== 'Satisfaction Rate' && (
                   <div className="h-12 w-px bg-gray-300" />
