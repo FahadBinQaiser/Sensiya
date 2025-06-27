@@ -64,12 +64,14 @@ const Footer = () => {
 
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h3 className="text-gray-900 text-2xl mb-4">{category}</h3>
+              <h3 className="text-gray-900 text-3xl mb-4">{category}</h3>
               <ul className="space-y-2">
                 {links.map((link) => (
                   <li key={link.name}>
                     <a
-                      href={link.href}
+                      href={link.href} 
+                      target='_blank'
+                      rel='noopener noreferrer'
                       className="text-gray-800 space-grotesk hover:text-black transition-colors duration-200"
                     >
                       {link.name}
