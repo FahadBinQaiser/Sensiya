@@ -1,6 +1,6 @@
 # Sensiya
 
-[[Sensiya Deploymentation]](https://vercel.com/fahad-x/sensiya/G31YpZyCiy1nPSZnjYCVYY3knYLB)
+[Sensiya Deploymentation](https://vercel.com/fahad-x/sensiya/G31YpZyCiy1nPSZnjYCVYY3knYLB)
 
 ## Description
 
