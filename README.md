@@ -1,13 +1,13 @@
 # Sensiya
 
-[[Vercel Status]](https://vercel.com/fahad-x/sensiya/G31YpZyCiy1nPSZnjYCVYY3knYLB)
+[[Sensiya Deploymentation]](https://vercel.com/fahad-x/sensiya/G31YpZyCiy1nPSZnjYCVYY3knYLB)
 
 ## Description
 
 Sensiya is a modern and responsive landing page built using
 
-⚪ Vite.
-⚪ React.
+⚪ Vite.  
+⚪ React.  
 ⚪ Tailwind CSS.
 
 ## Features
@@ -22,7 +22,7 @@ Sensiya is a modern and responsive landing page built using
 
 ## Deployment
 
-Deployed on Vercel: [Sensiya Live](https://sensiya.vercel.app/)
+Deployed on Vercel: [Sensiya](https://sensiya.vercel.app/)
 
 ## License
 
