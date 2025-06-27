@@ -15,18 +15,15 @@ const Newsletter = () => {
     <section className="py-24 bg-gradient-to-r from-indigo-600 to-purple-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Heading */}
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Stay ahead of the curve
           </h2>
 
-          {/* Subheading */}
           <p className="text-xl text-indigo-100 mb-10 max-w-2xl mx-auto">
             Get the latest AI design trends, tips, and exclusive features delivered
             to your inbox. Join 25,000+ creative professionals.
           </p>
 
-          {/* Form */}
           <form onSubmit={handleSubmit} className="max-w-md mx-auto">
             <div className="flex flex-col sm:flex-row gap-4">
               <input
