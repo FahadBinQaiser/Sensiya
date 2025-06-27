@@ -36,17 +36,17 @@ const Footer = () => {
   ];
 
   return (
-    <footer id="contact" className="bg-gray-900 text-white">
+    <footer id="contact" className="bg-gradient-to-r from-indigo-50 to-purple-50 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
           <div className="lg:col-span-2">
             <div className="mb-6">
-              <span className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
+              <span className="text-4xl text-gray-900 font-bold">
                 DesignAI
               </span>
             </div>
 
-            <p className="text-gray-400 mb-6 max-w-sm">
+            <p className="text-gray-700 space-grotesk mb-6 max-w-sm">
               Empowering creators worldwide with AI-powered design tools.
               Transform your ideas into stunning visuals effortlessly.
             </p>
