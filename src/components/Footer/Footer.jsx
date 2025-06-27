@@ -85,9 +85,6 @@ const Footer = () => {
           <p className="text-gray-900 space-grotesk text-sm">
             © 2024 DesignAI. All rights reserved.
           </p>
-          <div className="flex items-center space-x-6 mt-4 md:mt-0">
-            <span className="text-gray-400 text-sm">Built with ❤️ for creators</span>
-          </div>
         </div>
       </div>
     </footer>
