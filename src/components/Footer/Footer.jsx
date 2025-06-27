@@ -29,10 +29,9 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { name: 'Twitter', href: '#' },
-    { name: 'GitHub', href: '#' },
-    { name: 'LinkedIn', href: '#' },
-    { name: 'Instagram', href: '#' }
+    { name: 'GitHub', href: 'https://github.com/FahadBinQaiser' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/fahaddev/' },
+    { name: 'Instagram', href: 'https://www.instagram.com/pookieboii_x/' }
   ];
 
   return (
@@ -56,7 +55,7 @@ const Footer = () => {
                 <a
                   key={index}
                   href={social.href}
-                  className="text-gray-400 hover:text-white text-sm underline transition-all duration-200"
+                  className="text-gray-900 text-lg hover:underline"
                 >
                   {social.name}
                 </a>
