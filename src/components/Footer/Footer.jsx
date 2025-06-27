@@ -46,8 +46,7 @@ const Footer = () => {
             </div>
 
             <p className="text-gray-700 space-grotesk mb-6 max-w-sm">
-              Empowering creators worldwide with AI-powered design tools.
-              Transform your ideas into stunning visuals effortlessly.
+                An intelligent design platform built for speed and clarity, powered by AI to accelerate every creative workflow
             </p>
 
             <div className="flex space-x-4">
