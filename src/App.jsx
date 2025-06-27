@@ -6,6 +6,7 @@ import Features from './components/Features/Feature.jsx'
 import Tesitmonials from './components/Testimonials/Testimonials.jsx'
 import Pricing from './components/Pricing/Pricing.jsx'
 import NewsLetter from './components/NewsLetter/NewsLetter.jsx'
+import Footer from './components/Footer/Footer.jsx'
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
       <Tesitmonials />
       <Pricing />
       <NewsLetter />
+      <Footer />
       </div>
     </>
   )
