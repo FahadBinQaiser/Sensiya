@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection/HeroSection.jsx'
 import Features from './components/Features/Feature.jsx'
 import Tesitmonials from './components/Testimonials/Testimonials.jsx'
 import Pricing from './components/Pricing/Pricing.jsx'
+import NewsLetter from './components/NewsLetter/NewsLetter.jsx'
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Tesitmonials />
       <Pricing />
+      <NewsLetter />
       </div>
     </>
   )

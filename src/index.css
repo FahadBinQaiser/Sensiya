@@ -1,6 +1,7 @@
 @import "tailwindcss";
 body {
   font-family: "Luckiest Guy", sans-serif;
+  overflow-x: hidden;
 }
 .space-grotesk {
   font-family: "Space Grotesk", sans-serif;
