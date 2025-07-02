@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
@@ -12,24 +12,24 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <span className="text-3xl sm:text-4xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Sensiya
+                <Link to="/">Sensiya</Link>
               </span>
             </div>
 
-            <div className="hidden space-grotesk md:block">
-              <div className="ml-10 flex items-baseline space-x-8">
-                <a href="#features" className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+            <div className="hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-8 space-grotesk">
+                <Link to="/features" className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                   Features
-                </a>
-                <a href="#testimonials" className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+                </Link>
+                <Link to="/testimonials" className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                   Reviews
-                </a>
-                <a href="#pricing" className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+                </Link>
+                <Link to="/pricing" className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                   Pricing
-                </a>
-                <a href="#contact" className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+                </Link>
+                <Link to="/newsletter" className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -48,13 +48,7 @@ const Navbar = () => {
                 className="text-gray-700 hover:text-indigo-600 focus:outline-none"
                 aria-label="Toggle menu"
               >
-                <svg
-                  className="w-6 cursor-pointer h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg className="w-6 h-6 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
               </button>
@@ -63,25 +57,26 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden bg-white/95 backdrop-blur-3xl relative  border-t border-gray-100">
-            <div className="px-2 text-3xl pt-4 inline-flex flex-col absolute top-0 right-0 w-full bg-white h-screen">
-              <a href="#features" className="flex-col px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+          <div className="md:hidden bg-white/95 backdrop-blur-3xl border-t border-gray-100">
+            <div className="px-2 pt-4 pb-6 text-3xl space-y-4 flex flex-col">
+              <Link to="/features" onClick={toggleMenu} className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Features
-              </a>
-              <a href="#testimonials" className="flex-col px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+              </Link>
+              <Link to="/testimonials" onClick={toggleMenu} className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Reviews
-              </a>
-              <a href="#pricing" className="flex-col px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+              </Link>
+              <Link to="/pricing" onClick={toggleMenu} className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Pricing
-              </a>
-              <a href="#contact" className="flex-col px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
+              </Link>
+              <Link to="/newsletter" onClick={toggleMenu} className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Contact
-              </a>
-              <div className="pt-4 pb-2 space-y-2 px-3">
+              </Link>
+
+              <div className="pt-4 space-y-2 px-3">
                 <button className="w-full text-left text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
                   Sign In
                 </button>
-                <button className="cursor-pointer space-grotesk text-center group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-xl hover:shadow-xl hover:scale-105 transition-all duration-200 inline-flex w-full justify-center items-center space-x-2">
+                <button className="space-grotesk text-center group bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-8 py-4 rounded-full text-xl hover:shadow-xl hover:scale-105 transition-all duration-200 w-full">
                   Get Started
                 </button>
               </div>
