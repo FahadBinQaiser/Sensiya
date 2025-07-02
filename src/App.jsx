@@ -7,8 +7,6 @@ import Testimonials from './components/Testimonials/Testimonials.jsx';
 import Pricing from './components/Pricing/Pricing.jsx';
 import NewsLetter from './components/NewsLetter/NewsLetter.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import Reviews from './pages/Review.jsx';
-import Contact from './pages/Contact.jsx';
 
 function App() {
   return (
