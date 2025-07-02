@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-6">
               <span className="text-4xl text-gray-900">
-                DesignAI
+                Sensiya
               </span>
             </div>
 
