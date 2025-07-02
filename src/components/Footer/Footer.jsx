@@ -41,12 +41,12 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-6">
               <span className="text-4xl text-gray-900">
-                DesignAI
+                Sensiya
               </span>
             </div>
 
             <p className="text-gray-700 space-grotesk mb-6 max-w-sm">
-                An intelligent design platform built for speed and clarity, powered by AI to accelerate every creative workflow
+                An intelligent design platform built for speed, clarity, powered by AI to accelerate every creative workflow
             </p>
 
             <div className="flex space-x-4">
@@ -72,7 +72,7 @@ const Footer = () => {
                       href={link.href} 
                       target='_blank'
                       rel='noopener noreferrer'
-                      className="text-gray-800 space-grotesk hover:text-black transition-colors duration-200"
+                      className="text-gray-800 space-grotesk hover:border-b-2 hover:text-black transition-colors duration-200"
                     >
                       {link.name}
                     </a>
