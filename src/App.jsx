@@ -1,26 +1,42 @@
-import React from 'react'
-import Navbar from '../src/components/navbar/Navbar.jsx'
-import HeroSection from './components/HeroSection/HeroSection.jsx'
-import Features from './components/Features/Feature.jsx'
-import Tesitmonials from './components/Testimonials/Testimonials.jsx'
-import Pricing from './components/Pricing/Pricing.jsx'
-import NewsLetter from './components/NewsLetter/NewsLetter.jsx'
-import Footer from './components/Footer/Footer.jsx'
-function App() {
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from './components/navbar/Navbar.jsx';
+import HeroSection from './components/HeroSection/HeroSection.jsx';
+import Features from './components/Features/Feature.jsx';
+import Testimonials from './components/Testimonials/Testimonials.jsx';
+import Pricing from './components/Pricing/Pricing.jsx';
+import NewsLetter from './components/NewsLetter/NewsLetter.jsx';
+import Footer from './components/Footer/Footer.jsx';
+import Reviews from './pages/Review.jsx';
+import Contact from './pages/Contact.jsx';
 
+function App() {
   return (
-    <>
-      <div className="min-h-screen bg-white"> 
-      <Navbar />
-      <HeroSection />
-      <Features />
-      <Tesitmonials />
-      <Pricing />
-      <NewsLetter />
-      <Footer />
+    <BrowserRouter>
+      <div className="min-h-screen bg-white">
+        <Navbar />
+
+        <Routes>
+          <Route path="/" element={
+              <>
+                <HeroSection />
+                <Features />
+                <Testimonials />
+                <Pricing />
+                <NewsLetter />
+              </>
+            }
+          />
+          <Route path="/features" element={<Features />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/newsletter" element={<NewsLetter />} />
+        </Routes>
+
+        <Footer />
       </div>
-    </>
-  )
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
