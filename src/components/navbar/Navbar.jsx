@@ -34,10 +34,10 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex items-center space-x-4">
-              <button className="text-gray-700 space-grotesk hover:text-indigo-600 transition-colors duration-200 font-medium">
+              <button className="text-gray-700 space-grotesk cursor-pointer hover:text-indigo-600 transition-colors duration-200 font-medium">
                 Sign In
               </button>
-              <button className="bg-gradient-to-r space-grotesk from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200 font-medium">
+              <button className="bg-gradient-to-r space-grotesk cursor-pointer from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200 font-medium">
                 Get Started
               </button>
             </div>
