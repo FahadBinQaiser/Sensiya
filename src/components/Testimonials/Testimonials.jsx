@@ -21,6 +21,15 @@ const Testimonials = () => {
         "The AI understands our brand perfectly. Every generated design feels like it was crafted by our in-house team.",
     },
     {
+      name: "Michael Chen",
+      role: "Marketing Manager",
+      company: "TechCorp",
+      image:
+        "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      content:
+        "The AI understands our brand perfectly. Every generated design feels like it was crafted by our in-house team.",
+    },
+    {
       name: "Emma Rodriguez",
       role: "Freelance Designer",
       company: "Independent",
@@ -50,7 +59,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 max-w-5xl mx-auto md:grid-cols-2 gap-3">
           {testimonials.map((t, idx) => (
             <div
               key={idx}
