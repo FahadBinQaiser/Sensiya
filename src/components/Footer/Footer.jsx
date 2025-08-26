@@ -91,7 +91,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-900 text-sm">
-            © 2024 DesignAI. All rights reserved.
+            © 2024 Sensiya. All rights reserved.
           </p>
         </div>
       </div>
