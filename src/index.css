@@ -1,13 +1,15 @@
 @import "tailwindcss";
 body {
-  font-family: "Luckiest Guy", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   overflow-x: hidden;
+}
+.bricolage-grotesque {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: bold;
 }
 .space-grotesk {
   font-family: "Space Grotesk", sans-serif;
 }
-.luckiest-guy {
-  font-family: "Luckiest Guy", cursive;
-  font-weight: 400;
-  font-style: normal;
+.ibm-plex-sans {
+  font-family: "IBM Plex Sans", sans-serif;
 }
