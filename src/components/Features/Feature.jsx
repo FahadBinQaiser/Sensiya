@@ -1,42 +1,42 @@
-import React from 'react';
+import React from "react";
 
 const Features = () => {
   const features = [
     {
-      image: '/illustrations/arrow.png',
-      title: 'AI-Powered Generation',
+      image: "/illustrations/arrow.png",
+      title: "AI-Powered Generation",
       description:
-        'Generate stunning designs with simple text prompts. Our AI understands your vision and brings it to life instantly.',
+        "Generate stunning designs with simple text prompts. Our AI understands your vision and brings it to life instantly.",
     },
     {
-      image: '/illustrations/time.png',
-      title: 'Lightning Fast',
+      image: "/illustrations/time.png",
+      title: "Lightning Fast",
       description:
-        'Create professional designs in seconds. No more waiting hours for revisions or starting from scratch.',
+        "Create professional designs in seconds. No more waiting hours for revisions or starting from scratch.",
     },
     {
-      image: '/illustrations/idea.png',
-      title: 'Smart Color Palettes',
+      image: "/illustrations/idea.png",
+      title: "Smart Color Palettes",
       description:
-        'AI-curated color schemes that perfectly match your brand and create visual harmony across all designs.',
+        "AI-curated color schemes that perfectly match your brand and create visual harmony across all designs.",
     },
     {
-      image: '/illustrations/AI.png',
-      title: 'Intelligent Layout',
+      image: "/illustrations/AI.png",
+      title: "Intelligent Layout",
       description:
-        'Advanced algorithms ensure perfect composition, spacing, and visual hierarchy in every design.',
+        "Advanced algorithms ensure perfect composition, spacing, and visual hierarchy in every design.",
     },
     {
-      image: '/illustrations/export.png',
-      title: 'Multi-Format Export',
+      image: "/illustrations/export.png",
+      title: "Multi-Format Export",
       description:
-        'Export your designs in any format you need — PNG, SVG, PDF, or directly to your favorite platforms.',
+        "Export your designs in any format you need — PNG, SVG, PDF, or directly to your favorite platforms.",
     },
     {
-      image: '/illustrations/diamond.png',
-      title: 'Style Adaptation',
+      image: "/illustrations/diamond.png",
+      title: "Style Adaptation",
       description:
-        'Transform existing designs into different styles and formats while maintaining brand consistency.',
+        "Transform existing designs into different styles and formats while maintaining brand consistency.",
     },
   ];
 
@@ -44,17 +44,18 @@ const Features = () => {
     <section id="features" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
-          <h2 className="text-5xl luckiest-guy md:text-5xl lg:text-7xl text-gray-900 mb-6">
-            Powerful features for {' '} <span className="sm:block">
-                
-            <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">
-              modern creators
-            </span>
+          <h2 className="text-5xl bricolage-grotesque md:text-5xl lg:text-7xl text-gray-900 mb-6">
+            Powerful features for{" "}
+            <span className="sm:block">
+              <span className="bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent">
+                modern creators
+              </span>
             </span>
           </h2>
-          <p className="text-lg text-pretty space-grotesk text-gray-700">
-            Everything you need to create exceptional designs,<span className="sm:block">
-            powered by cutting-edge AI technology
+          <p className="text-lg text-pretty ibm-plex-sans text-gray-700">
+            Everything you need to create exceptional designs,
+            <span className="sm:block">
+              powered by cutting-edge AI technology
             </span>
           </p>
         </div>
@@ -73,10 +74,12 @@ const Features = () => {
                 />
               </div>
 
-              <h3 className="text-3xl text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300">
+              <h3 className="text-3xl bricolage-grotesque text-gray-900 mb-4 group-hover:text-indigo-600 transition-colors duration-300">
                 {title}
               </h3>
-              <p className="text-gray-700 space-grotesk leading-relaxed">{description}</p>
+              <p className="text-gray-700 ibm-plex-sans leading-relaxed">
+                {description}
+              </p>
             </div>
           ))}
         </div>
