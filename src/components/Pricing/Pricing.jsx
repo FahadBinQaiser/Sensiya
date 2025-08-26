@@ -64,59 +64,66 @@ const Pricing = () => {
               pricing
             </span>
           </h2>
-          <p className="text-lg text-gray-700 space-grotesk">
+          <p className="text-lg text-gray-700">
             Choose the plan that's right for you. Upgrade or downgrade at any
             time.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {plans.map((plan, index) => (
-            <div
-              key={index}
-              className={`relative p-8 rounded-2xl border-2 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 ${
-                plan.popular
-                  ? "border-indigo-500 bg-gradient-to-br from-indigo-50 to-purple-50 shadow-lg"
-                  : "border-gray-200 bg-white hover:border-indigo-200"
-              }`}
-            >
-              {plan.popular && (
-                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2">
-                  <div className="flex items-center justify-center space-x-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-4 py-2 rounded-full text-xl w-40 h-10 text-center font-medium">
-                    <span>Most Popular</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-6xl mx-auto">
+          {plans.map((plan, index) => {
+            const isLast = index === plans.length - 1;
+            const isPopular = plan.popular;
+
+            return (
+              <div
+                key={index}
+                className={[
+                  "relative p-8 rounded-2xl border-2 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col",
+                  isPopular
+                    ? "border-indigo-500 bg-gradient-to-br from-indigo-50 to-purple-50 shadow-lg"
+                    : "border-gray-200 bg-white hover:border-indigo-200",
+                  isLast ? "md:col-span-2" : "",
+                ].join(" ")}
+              >
+                {isPopular && (
+                  <div className="absolute -top-5 left-1/2 -translate-x-1/2">
+                    <div className="flex items-center justify-center bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-4 py-2 rounded-full text-xl w-40 h-10 text-center font-medium">
+                      Most Popular
+                    </div>
+                  </div>
+                )}
+
+                <div className="text-center mb-8">
+                  <h3 className="text-4xl bricolage-grotesque text-gray-900 mb-2">
+                    {plan.name}
+                  </h3>
+                  <p className="text-gray-700 mb-4">{plan.description}</p>
+                  <div>
+                    <span className="text-4xl text-gray-900">{plan.price}</span>
+                    {plan.period && (
+                      <span className="text-gray-500 ml-2">/{plan.period}</span>
+                    )}
                   </div>
                 </div>
-              )}
 
-              <div className="text-center mb-8">
-                <h3 className="text-4xl bricolage-grotesque text-gray-900 mb-2">
-                  {plan.name}
-                </h3>
-                <p className="text-gray-700 mb-4">{plan.description}</p>
-                <div className="mb-4">
-                  <span className="text-4xl text-gray-900">{plan.price}</span>
-                  {plan.period && (
-                    <span className="text-gray-500 ml-2">/{plan.period}</span>
-                  )}
-                </div>
+                <ul className="space-y-4 mb-8 flex-1">
+                  {plan.features.map((feature, i) => (
+                    <li key={i} className="flex items-start space-x-3">
+                      <span className="text-green-500 mt-0.5">✔</span>
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <button
+                  className={`w-full py-4 px-6 rounded-full text-lg transition duration-200 ${plan.buttonStyle}`}
+                >
+                  {plan.buttonText}
+                </button>
               </div>
-
-              <ul className="space-y-4 mb-8">
-                {plan.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-start space-x-3">
-                    <span className="text-green-500 mt-0.5">✔</span>
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <button
-                className={`w-full cursor-pointer py-4 px-6 rounded-full text-lg transition-all duration-200 ${plan.buttonStyle}`}
-              >
-                {plan.buttonText}
-              </button>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         <div className="text-center mt-16">
