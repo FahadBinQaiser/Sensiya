@@ -26,25 +26,25 @@ const Navbar = () => {
               <div className="ml-10 flex font-normal items-baseline space-x-8 ibm-plex-sans">
                 <Link
                   to="/features"
-                  className="text-white hover:text-[#5B0202] transition-colors duration-200"
+                  className="text-white hover:text-[#d40000] transition-colors duration-200"
                 >
                   Features
                 </Link>
                 <Link
                   to="/testimonials"
-                  className="text-white hover:text-[#5B0202] transition-colors duration-200"
+                  className="text-white hover:text-[#d40000] transition-colors duration-200"
                 >
                   Reviews
                 </Link>
                 <Link
                   to="/pricing"
-                  className="text-white hover:text-[#5B0202] transition-colors duration-200 "
+                  className="text-white hover:text-[#d40000] transition-colors duration-200 "
                 >
                   Pricing
                 </Link>
                 <Link
                   to="/newsletter"
-                  className="text-white hover:text-[#5B0202] transition-colors duration-200 "
+                  className="text-white hover:text-[#d40000] transition-colors duration-200 "
                 >
                   Contact
                 </Link>
