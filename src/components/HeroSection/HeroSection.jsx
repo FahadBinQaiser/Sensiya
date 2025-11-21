@@ -40,7 +40,7 @@ const HeroSection = () => {
             <img
               src="/circle2.png"
               alt="Landing page audit visualization"
-              className="w-full max-w-md lg:max-w-xl"
+              className="circle w-full max-w-md lg:max-w-xl"
             />
           </div>
         </div>
