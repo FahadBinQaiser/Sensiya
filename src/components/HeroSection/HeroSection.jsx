@@ -17,7 +17,7 @@ const HeroSection = () => {
               visitors into bookings.
             </p>
 
-            <button className="cursor-pointer group bg-[#D12B27] text-white px-8 py-4 rounded-full text-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2">
+            <button className="cursor-pointer group bg-white text-[#D12B27] px-8 py-4 rounded-full text-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2">
               <span>Get Your Free Audit</span>
               <svg
                 className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200"
