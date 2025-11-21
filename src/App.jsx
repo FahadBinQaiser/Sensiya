@@ -10,32 +10,35 @@ import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="min-h-screen bg-white">
-        <Navbar />
+    <>
+      <Navbar />
+      <HeroSection />
+    </>
 
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <HeroSection />
-                {/* <Features />
-                <Testimonials />
-                <Pricing />
-                <NewsLetter /> */}
-              </>
-            }
-          />
-          {/* <Route path="/features" element={<Features />} />
-          <Route path="/testimonials" element={<Testimonials />} />
-          <Route path="/pricing" element={<Pricing />} />
-          <Route path="/newsletter" element={<NewsLetter />} /> */}
-        </Routes>
+    // <BrowserRouter>
+    //   <div className="min-h-screen bg-white">
 
-        {/* <Footer /> */}
-      </div>
-    </BrowserRouter>
+    //     <Routes>
+    //       <Route
+    //         path="/"
+    //         element={
+    //           <>
+    //             {/* <Features />
+    //             <Testimonials />
+    //             <Pricing />
+    //             <NewsLetter /> */}
+    //           </>
+    //         }
+    //       />
+    //       {/* <Route path="/features" element={<Features />} />
+    //       <Route path="/testimonials" element={<Testimonials />} />
+    //       <Route path="/pricing" element={<Pricing />} />
+    //       <Route path="/newsletter" element={<NewsLetter />} /> */}
+    //     </Routes>
+
+    //     {/* <Footer /> */}
+    //   </div>
+    // </BrowserRouter>
   );
 }
 
