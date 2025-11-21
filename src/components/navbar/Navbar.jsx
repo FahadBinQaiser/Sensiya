@@ -25,25 +25,25 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex font-normal items-baseline space-x-8 ibm-plex-sans">
                 <Link
-                  to="/features"
+                  to="/"
                   className="text-white hover:text-[#d40000] transition-colors duration-200"
                 >
                   Features
                 </Link>
                 <Link
-                  to="/testimonials"
+                  to="/"
                   className="text-white hover:text-[#d40000] transition-colors duration-200"
                 >
                   Reviews
                 </Link>
                 <Link
-                  to="/pricing"
+                  to="/"
                   className="text-white hover:text-[#d40000] transition-colors duration-200 "
                 >
                   Pricing
                 </Link>
                 <Link
-                  to="/newsletter"
+                  to="/"
                   className="text-white hover:text-[#d40000] transition-colors duration-200 "
                 >
                   Contact
@@ -85,28 +85,28 @@ const Navbar = () => {
           <div className="md:hidden h-screen overflow-y-hidden bg-white/95 backdrop-blur-3xl border-t border-gray-100">
             <div className="px-2 pt-4 pb-6 text-3xl space-y-4 flex flex-col">
               <Link
-                to="/features"
+                to="/"
                 onClick={toggleMenu}
                 className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
               >
                 Features
               </Link>
               <Link
-                to="/testimonials"
+                to="/"
                 onClick={toggleMenu}
                 className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
               >
                 Reviews
               </Link>
               <Link
-                to="/pricing"
+                to="/"
                 onClick={toggleMenu}
                 className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
               >
                 Pricing
               </Link>
               <Link
-                to="/newsletter"
+                to="/"
                 onClick={toggleMenu}
                 className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
               >
