@@ -13,8 +13,8 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="fixed top-0 w-full bg-[#D12B27] backdrop-blur-md z-50">
-        <div className="max-w-7xl mx-auto ">
+      <nav className="fixed top-0 w-full backdrop-blur-md z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <span className="text-3xl text-white">
@@ -82,7 +82,7 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden ibm-plex-sans h-screen overflow-y-hidden bg-white/95 backdrop-blur-3xl border-t border-gray-100">
+          <div className="md:hidden h-screen overflow-y-hidden bg-white/95 backdrop-blur-3xl border-t border-gray-100">
             <div className="px-2 pt-4 pb-6 text-3xl space-y-4 flex flex-col">
               <Link
                 to="/features"

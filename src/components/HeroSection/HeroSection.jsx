@@ -2,16 +2,16 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="flex justify-center items-center min-h-screen bg-[#F8F9FA]">
+    <section className="herosection flex justify-center items-center min-h-screen bg-[#F8F9FA]">
       <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="leftSide">
-            <h1 className="text-5xl font-bold text-balance md:text-6xl lg:text-7xl text-[#1A1A1A] mb-6">
+            <h1 className="text-5xl font-bold text-balance md:text-6xl lg:text-7xl text-white mb-6">
               Your landing page is{" "}
               <span className="text-[#D12B27]">burning your CAC</span>
             </h1>
 
-            <p className="text-base text-balance sm:text-lg md:text-xl text-[#6B7280] mb-10 leading-relaxed">
+            <p className="text-base text-balance sm:text-lg md:text-xl text-white mb-10 leading-relaxed">
               Early-stage SaaS teams waste thousands on ads while generic hero
               sections kill their demos. Build sections that actually convert
               visitors into bookings.
