@@ -20,10 +20,10 @@ function App() {
             element={
               <>
                 <HeroSection />
-                <Features />
+                {/* <Features />
                 <Testimonials />
                 <Pricing />
-                <NewsLetter />
+                <NewsLetter /> */}
               </>
             }
           />
@@ -33,7 +33,7 @@ function App() {
           <Route path="/newsletter" element={<NewsLetter />} />
         </Routes>
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </BrowserRouter>
   );
