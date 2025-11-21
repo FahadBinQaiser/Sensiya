@@ -13,40 +13,38 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-100 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="fixed top-0 w-full bg-[#D12B27] backdrop-blur-md z-50">
+        <div className="max-w-7xl mx-auto ">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <span className="text-3xl sm:text-4xl bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                <Link to="/" className="bricolage-grotesque">
-                  Sensiya
-                </Link>
+              <span className="text-3xl text-white">
+                <Link to="/">Sensiya</Link>
               </span>
             </div>
 
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-8 ibm-plex-sans">
+              <div className="ml-10 flex font-normal items-baseline space-x-8 ibm-plex-sans">
                 <Link
                   to="/features"
-                  className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
+                  className="text-white hover:text-[#5B0202] transition-colors duration-200"
                 >
                   Features
                 </Link>
                 <Link
                   to="/testimonials"
-                  className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
+                  className="text-white hover:text-[#5B0202] transition-colors duration-200"
                 >
                   Reviews
                 </Link>
                 <Link
                   to="/pricing"
-                  className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
+                  className="text-white hover:text-[#5B0202] transition-colors duration-200 "
                 >
                   Pricing
                 </Link>
                 <Link
                   to="/newsletter"
-                  className="text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
+                  className="text-white hover:text-[#5B0202] transition-colors duration-200 "
                 >
                   Contact
                 </Link>
@@ -54,11 +52,8 @@ const Navbar = () => {
             </div>
 
             <div className="hidden md:flex items-center ibm-plex-sans space-x-4">
-              <button className="text-gray-700 cursor-pointer hover:text-indigo-600 transition-colors duration-200 font-medium">
-                Sign In
-              </button>
-              <button className="bg-gradient-to-r cursor-pointer from-indigo-500 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200 font-medium">
-                Get Started
+              <button className="bg-[#ffffff] hover:bg-[#D12B27] hover:text-white cursor-pointer text-black  px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200">
+                Get your Landing Page Audit
               </button>
             </div>
 
