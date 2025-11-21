@@ -27,10 +27,10 @@ function App() {
               </>
             }
           />
-          <Route path="/features" element={<Features />} />
+          {/* <Route path="/features" element={<Features />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/newsletter" element={<NewsLetter />} />
+          <Route path="/newsletter" element={<NewsLetter />} /> */}
         </Routes>
 
         {/* <Footer /> */}
