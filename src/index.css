@@ -10,7 +10,7 @@ body {
   font-family: "Stack Sans Headline", sans-serif;
 }
 .herosection {
-  background-image: url("/public/gradient2.jpg");
+  background-image: url("/gradient2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
