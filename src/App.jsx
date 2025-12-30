@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar.jsx";
 import HeroSection from "./components/HeroSection/HeroSection.jsx";
+import Problems from "./components/Problems/Problems.jsx";
 import Features from "./components/Features/Feature.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Pricing from "./components/Pricing/Pricing.jsx";
@@ -20,6 +21,7 @@ function App() {
             element={
               <>
                 <HeroSection />
+                <Problems />
                 {/* <Features />
                 <Testimonials />
                 <Pricing />
