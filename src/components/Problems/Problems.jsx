@@ -26,7 +26,7 @@ export default function Problems() {
     <section className="relative bg-black py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="mb-16 md:mb-20 text-center">
-          <h2 className="text-5xl md:text-6xl lg:text-6xl font-black text-white mb-6 tracking-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-white mb-6 text-balance">
             Your landing page is{" "}
             <span className="text-[#D12B27]">bleeding</span> money.
           </h2>
