@@ -57,13 +57,13 @@ const Pricing = () => {
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="mb-16 text-center max-w-4xl mx-auto">
-          <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight leading-tight">
-            Get your audit <span className="text-[#D12B27]">free</span>. Pay
+          <h2 className="text-4xl md:text-6xl text-balance font-black text-white mb-10 tracking-tight leading-tight">
+            Get your <span className="text-[#D12B27]">audit free</span>. Pay
             only if you want us to implement it.
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {plans.map((plan, index) => (
             <div
               key={index}
