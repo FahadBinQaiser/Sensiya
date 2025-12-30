@@ -53,7 +53,7 @@ const Pricing = () => {
 
   return (
     <section className="relative bg-zinc-950 py-24 overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(209,43,39,0.06),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(209,43,39,0.1),transparent_50%)]" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="mb-16 text-center max-w-4xl mx-auto">
@@ -70,7 +70,7 @@ const Pricing = () => {
               className={`relative bg-black border ${
                 plan.highlighted
                   ? "border-[#D12B27] shadow-[0px_0px_30px_0px_rgba(209,43,39,0.3)]"
-                  : "border-zinc-800"
+                  : "border-gray-600"
               } rounded-lg p-8 flex flex-col transition-all duration-300 hover:-translate-y-2 ${
                 !plan.highlighted && "hover:border-zinc-700"
               }`}
@@ -122,7 +122,7 @@ const Pricing = () => {
               </ul>
 
               <button
-                className={`w-full py-4 px-6 rounded-lg font-bold text-lg transition-all duration-300 ${
+                className={`w-full cursor-pointer py-4 px-6 rounded-lg text-lg transition-all duration-300 ${
                   plan.highlighted
                     ? "bg-[#D12B27] text-white hover:bg-[#B02321] shadow-lg"
                     : "bg-zinc-900 text-white border border-zinc-800 hover:border-zinc-700 hover:bg-zinc-800"
