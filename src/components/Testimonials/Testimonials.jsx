@@ -30,21 +30,22 @@ const Testimonials = () => {
 
   return (
     <section className="relative bg-black py-24 overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(209,43,39,0.06),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_100%_90%,rgba(209,43,39,0.5),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_0%_10%,rgba(209,43,39,0.5),transparent_50%)]" />
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-2">
         <div className="mb-16 text-center">
-          <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl text-balance font-black text-white mb-6 tracking-tight">
             Results from companies who fixed their{" "}
             <span className="text-[#D12B27]">landing pages</span>
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="group relative bg-zinc-950 border border-zinc-800 p-8 rounded-lg transition-all duration-300 hover:-translate-y-2 hover:border-[#D12B27]/30 hover:shadow-[0px_8px_20px_0px_rgba(209,43,39,0.4)] flex flex-col"
+              className="group relative  bg-zinc-950 border border-gray-600 p-8 rounded-lg transition-all duration-300 hover:-translate-y-2 hover:border-[#D12B27]/30 hover:shadow-[0px_8px_20px_0px_rgba(209,43,39,0.4)] flex flex-col"
             >
               <div className="mb-6 flex-grow">
                 <svg
