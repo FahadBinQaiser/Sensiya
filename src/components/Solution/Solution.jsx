@@ -52,7 +52,7 @@ export default function Solution() {
           </p>
         </div>
 
-        <div className="space-y-16 mb-32">
+        <div className="space-y-16 sm:space-y-24 lg:space-y-28">
           {deliverables.map((item, index) => (
             <div
               key={index}
