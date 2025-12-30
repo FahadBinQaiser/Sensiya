@@ -87,12 +87,12 @@ export default function Solution() {
               </div>
 
               <div className="flex-1">
-                <div className="relative bg-zinc-950 border border-zinc-800 rounded-lg overflow-hidden h-80 group hover:border-[#D12B27]/30 transition-all duration-300">
+                <div className="relative bg-zinc-950 border border-zinc-800 rounded-lg overflow-hidden w-full h-full group hover:border-[#D12B27]/30 transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-br from-[#D12B27]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <img
                     src={item.imageUrl}
                     alt={item.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-96 object-cover"
                   />
                 </div>
               </div>
