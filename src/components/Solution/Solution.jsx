@@ -70,7 +70,7 @@ export default function Solution() {
             >
               <div className="flex-1">
                 <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0 w-16 h-16 bg-[#D12B27] rounded-xl flex items-center justify-center">
+                  <div className="flex-shrink-0 w-16 h-16 bg-[#D12B27] rounded-full flex items-center justify-center">
                     <span className="text-white font-black text-2xl">
                       {item.number}
                     </span>
