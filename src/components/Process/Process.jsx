@@ -49,7 +49,7 @@ export default function Process() {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className="group relative bg-black border border-zinc-800 p-8 rounded-lg transition-all duration-300 hover:-translate-y-2 hover:border-[#D12B27]/30 hover:shadow-[0px_8px_20px_0px_rgba(209,43,39,0.4)] flex flex-col"
+                className="group relative bg-black border border-gray-600 p-8 rounded-lg transition-all duration-300 hover:-translate-y-2 hover:border-[#D12B27]/30 hover:shadow-[0px_0px_10px_0px_rgba(209,43,39,0.8)] flex flex-col"
               >
                 <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#D12B27] rounded-full flex items-center justify-center">
                   <span className="text-white font-black text-lg">
