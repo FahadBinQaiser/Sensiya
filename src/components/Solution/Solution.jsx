@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TheAudit() {
+export default function Solution() {
   const deliverables = [
     {
       title: "Video Walkthrough",
@@ -49,7 +49,6 @@ export default function TheAudit() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(209,43,39,0.05),transparent_50%)]" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-        {/* Header */}
         <div className="mb-20 max-w-4xl">
           <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight leading-tight">
             Here's exactly what's in your{" "}
@@ -61,7 +60,6 @@ export default function TheAudit() {
           </p>
         </div>
 
-        {/* Deliverables - Alternating Layout */}
         <div className="space-y-16 mb-32">
           {deliverables.map((item, index) => (
             <div
@@ -70,7 +68,6 @@ export default function TheAudit() {
                 index % 2 === 1 ? "lg:flex-row-reverse" : ""
               }`}
             >
-              {/* Content Side */}
               <div className="flex-1">
                 <div className="flex items-start gap-6">
                   <div className="flex-shrink-0 w-16 h-16 bg-[#D12B27] rounded-xl flex items-center justify-center">
@@ -97,7 +94,6 @@ export default function TheAudit() {
                 </div>
               </div>
 
-              {/* Visual Side */}
               <div className="flex-1">
                 <div className="relative bg-zinc-950 border border-zinc-800 rounded-lg overflow-hidden h-80 group hover:border-[#D12B27]/30 transition-all duration-300">
                   <div className="absolute inset-0 bg-gradient-to-br from-[#D12B27]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
