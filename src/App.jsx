@@ -4,12 +4,14 @@ import Navbar from "./components/navbar/Navbar.jsx";
 import HeroSection from "./components/HeroSection/HeroSection.jsx";
 import Problems from "./components/Problems/Problems.jsx";
 import Solution from "./components/Solution/Solution.jsx";
+import Analyze from "./components/Analyze/Analyze.jsx";
 import Process from "./components/Process/Process.jsx";
 import Features from "./components/Features/Feature.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Pricing from "./components/Pricing/Pricing.jsx";
 import NewsLetter from "./components/NewsLetter/NewsLetter.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +26,7 @@ function App() {
                 <HeroSection />
                 <Problems />
                 <Solution />
+                <Analyze />
                 <Process />
                 {/* <Features /> */}
                 <Testimonials />
