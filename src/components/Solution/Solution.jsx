@@ -24,7 +24,7 @@ export default function Solution() {
       description:
         "We rank every fix by effort vs impact. Start with the quick wins that drive immediate results.",
       number: "03",
-      imageUrl: "/images/action-plan.png",
+      imageUrl: "/illustrations/Solution/plan.jpeg",
     },
     {
       title: "Competitor Analysis",
@@ -32,7 +32,7 @@ export default function Solution() {
       description:
         "See how your top 3 competitors structure their pages and where you're leaving money on the table.",
       number: "04",
-      imageUrl: "/images/competitor-analysis.png",
+      imageUrl: "/illustrations/Solution/graph.jpeg",
     },
     {
       title: "Rewritten Hero Section",
