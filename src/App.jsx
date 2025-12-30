@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar.jsx";
 import HeroSection from "./components/HeroSection/HeroSection.jsx";
 import Problems from "./components/Problems/Problems.jsx";
-import Solutions from "./components/Solution/Solutions.js";
+import Solution from "./components/Solution/Solution.jsx";
 import Process from "./components/Process/Process.jsx";
 import Features from "./components/Features/Feature.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
@@ -23,7 +23,7 @@ function App() {
               <>
                 <HeroSection />
                 <Problems />
-                <Solutions />
+                <Solution />
                 <Process />
                 {/* <Features /> */}
                 <Testimonials />
