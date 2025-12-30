@@ -4,15 +4,15 @@ export default function Problems() {
   const problems = [
     {
       number: "01",
-      title: "Generic Hero Sections",
+      title: "Generic Hero Sections, failed 3 impression test",
       description:
-        "Your hero section sounds like everyone else's. \"The best platform for X\" doesn't tell visitors why they should care. They bounce in 3 seconds.",
+        "Your hero section sounds like everyone else's. The best platform for X doesn't tell visitors why they should care. They bounce in 3 seconds.",
     },
     {
       number: "02",
-      title: "Weak CTAs",
+      title: "Weak CTAs that don't match buyer intent",
       description:
-        '"Get Started" and "Learn More" are conversion killers. Your CTA needs to match where your visitor is in their buying journey. Yours doesn\'t.',
+        "Get Started and Learn More are conversion killers. Your CTA needs to match where your visitor is in their buying journey. Yours doesn't.",
     },
     {
       number: "03",
@@ -28,7 +28,7 @@ export default function Problems() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(209,43,39,0.05),transparent_50%)]" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="mb-16 md:mb-20">
+        <div className="mb-16 md:mb-20 text-center">
           <h2 className="text-5xl md:text-6xl lg:text-6xl font-black text-white mb-6 tracking-tight">
             Your landing page is{" "}
             <span className="text-[#D12B27]">bleeding</span> money.
@@ -43,13 +43,13 @@ export default function Problems() {
           {problems.map((problem, index) => (
             <div
               key={index}
-              className="group relative bg-zinc-950 border border-zinc-800 p-8 transition-all duration-300 hover:-translate-y-3 hover:shadow-[0px_4px_10px_0px_rgba(209,43,39,0.8)] rounded-lg"
+              className="group relative bg-zinc-950 border border-zinc-800 p-8 transition-all duration-300 hover:-translate-y-3 hover:shadow-[0px_4px_10px_0px_rgba(209,43,39,0.8)] rounded-lg flex flex-col h-full"
             >
               <div className="absolute -top-6 -right-6 text-[120px] font-black text-[#D12B27] opacity-[0.03] leading-none select-none">
                 {problem.number}
               </div>
 
-              <div className="relative z-10">
+              <div className="relative z-10 flex flex-col flex-grow">
                 <div className="text-[#D12B27] text-sm font-mono font-bold mb-4 tracking-wider">
                   PROBLEM {problem.number}
                 </div>
@@ -58,7 +58,7 @@ export default function Problems() {
                   {problem.title}
                 </h3>
 
-                <p className="text-zinc-400 text-base md:text-lg leading-relaxed">
+                <p className="text-zinc-400 text-base md:text-lg leading-relaxed mt-auto">
                   {problem.description}
                 </p>
               </div>
