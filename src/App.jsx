@@ -31,7 +31,7 @@ function App() {
                 {/* <Features /> */}
                 <Testimonials />
                 <Pricing />
-                {/* <NewsLetter /> */}
+                <NewsLetter />
               </>
             }
           />
