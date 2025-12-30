@@ -41,7 +41,7 @@ export default function Solution() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(209,43,39,0.05),transparent_50%)]" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="mb-20 text-center text-balance">
+        <div className="mb-24 text-center text-balance">
           <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight leading-tight">
             Here's exactly what's in your{" "}
             <span className="text-[#D12B27]">free audit</span>
