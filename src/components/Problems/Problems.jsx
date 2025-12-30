@@ -42,21 +42,6 @@ export default function Problems() {
               key={index}
               className="group relative bg-zinc-950 border border-zinc-800 p-8 transition-all duration-300 hover:-translate-y-3 hover:shadow-[0px_0px_10px_0px_rgba(209,43,39,0.8)] rounded-lg flex flex-col h-full"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="absolute top-1/2 left-1/2 w-20 h-20 text-white group-hover:text-[#D12B27] transform -translate-x-1/2 -translate-y-1/2 scale-0 transition-all duration-300 group-hover:translate-x-24 group-hover:-translate-y-44 group-hover:scale-100"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4.5 19.5L19.5 4.5M19.5 4.5H8.25M19.5 4.5v11.25"
-                />
-              </svg>
-              );
               <div className="absolute -top-6 -right-6 text-[120px] font-black text-[#D12B27] opacity-[0.03] leading-none select-none">
                 {problem.number}
               </div>
