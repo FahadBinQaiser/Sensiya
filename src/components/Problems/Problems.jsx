@@ -40,7 +40,7 @@ export default function Problems() {
           {problems.map((problem, index) => (
             <div
               key={index}
-              className="group relative bg-zinc-950 border border-zinc-800 p-8 transition-all duration-300 hover:-translate-y-3 hover:shadow-[0px_4px_10px_0px_rgba(209,43,39,0.8)] rounded-lg flex flex-col h-full"
+              className="group relative bg-zinc-950 border border-zinc-800 p-8 transition-all duration-300 hover:-translate-y-3 hover:shadow-[0px_0px_10px_0px_rgba(209,43,39,0.8)] rounded-lg flex flex-col h-full"
             >
               <div className="absolute -top-6 -right-6 text-[120px] font-black text-[#D12B27] opacity-[0.03] leading-none select-none">
                 {problem.number}
