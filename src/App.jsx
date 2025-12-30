@@ -30,7 +30,7 @@ function App() {
                 <Process />
                 {/* <Features /> */}
                 <Testimonials />
-                {/* <Pricing /> */}
+                <Pricing />
                 {/* <NewsLetter /> */}
               </>
             }
