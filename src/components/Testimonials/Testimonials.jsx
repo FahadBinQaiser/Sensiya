@@ -1,4 +1,5 @@
 import React from "react";
+import RadialGradients from "../../UIComponents/RadialGradient.jsx";
 
 const Testimonials = () => {
   const testimonials = [
@@ -30,8 +31,7 @@ const Testimonials = () => {
 
   return (
     <section className="relative bg-black py-24 overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_100%_90%,rgba(209,43,39,0.5),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_0%_10%,rgba(209,43,39,0.5),transparent_50%)]" />
+      <RadialGradients />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-2">
         <div className="mb-16 text-center">
