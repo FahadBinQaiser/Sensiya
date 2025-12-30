@@ -34,18 +34,18 @@ export default function Process() {
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-          <div className="lg:sticky lg:top-24">
-            <h2 className="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight leading-tight">
+          <div className="flex flex-col justify-center items-center text-center md:text-left h-full">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl text-balance font-black text-white mb-6 tracking-tight leading-tight">
               We find what's killing your conversions in{" "}
               <span className="text-[#D12B27]">72 hours</span>
             </h2>
-            <p className="text-xl md:text-2xl text-zinc-400 leading-relaxed">
+            <p className="text-lg sm:text-xl text-zinc-400 leading-relaxed">
               No theories. No templates. Just a brutally honest breakdown of
               what's broken and exactly how to fix it.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
             {steps.map((step, index) => (
               <div
                 key={index}
