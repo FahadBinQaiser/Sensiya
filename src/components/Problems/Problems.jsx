@@ -24,10 +24,7 @@ export default function Problems() {
 
   return (
     <section className="relative bg-black py-20 overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(209,43,39,0.08),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(209,43,39,0.05),transparent_50%)]" />
-
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="mb-16 md:mb-20 text-center">
           <h2 className="text-5xl md:text-6xl lg:text-6xl font-black text-white mb-6 tracking-tight">
             Your landing page is{" "}
@@ -68,7 +65,7 @@ export default function Problems() {
 
         <div className="mt-16 flex items-center justify-center gap-4">
           <div className="h-px w-16 bg-gradient-to-r from-transparent to-zinc-700" />
-          <p className="text-zinc-600 text-sm font-mono uppercase tracking-widest">
+          <p className="text-zinc-600 text-[11px] sm:text-sm font-mono uppercase tracking-widest">
             These are just the obvious ones
           </p>
           <div className="h-px w-16 bg-gradient-to-l from-transparent to-zinc-700" />
