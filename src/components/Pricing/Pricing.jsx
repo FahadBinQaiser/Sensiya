@@ -124,7 +124,7 @@ const Pricing = () => {
               <button
                 className={`w-full cursor-pointer py-4 px-6 rounded-lg text-lg transition-all duration-300 ${
                   plan.highlighted
-                    ? "bg-[#D12B27] text-white hover:bg-[#B02321] shadow-lg"
+                    ? "bg-[#D12B27] text-white hover:bg-white hover:text-[#D12B27] shadow-lg"
                     : "bg-zinc-900 text-white border border-zinc-800 hover:border-zinc-700 hover:bg-zinc-800"
                 }`}
               >
