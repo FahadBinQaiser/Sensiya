@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 place-items-center items-center">
           <div className="leftSide text-center lg:text-left">
-            <h1 className="text-5xl font-bold text-balance md:text-6xl text-white mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-balance text-white mb-6">
               Your landing page is{" "}
               <span className="text-[#D12B27]">burning your CAC</span>
             </h1>
