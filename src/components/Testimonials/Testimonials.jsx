@@ -30,7 +30,10 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="relative bg-black py-24 overflow-hidden">
+    <section
+      id="testimonials"
+      className="relative bg-black py-24 overflow-hidden"
+    >
       <RadialGradients />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-2">

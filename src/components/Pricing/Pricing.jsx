@@ -52,7 +52,10 @@ const Pricing = () => {
   ];
 
   return (
-    <section className="relative bg-zinc-950 py-24 overflow-hidden">
+    <section
+      id="pricing"
+      className="relative bg-zinc-950 py-24 overflow-hidden"
+    >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(209,43,39,0.1),transparent_50%)]" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
