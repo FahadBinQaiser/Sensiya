@@ -10,6 +10,7 @@ import Features from "./components/Features/Feature.jsx";
 import Testimonials from "./components/Testimonials/Testimonials.jsx";
 import Pricing from "./components/Pricing/Pricing.jsx";
 import NewsLetter from "./components/NewsLetter/NewsLetter.jsx";
+import { Faq } from "./components/Faq/Faq.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                 <Testimonials />
                 <Pricing />
                 <NewsLetter />
+                <Faq />
               </>
             }
           />
