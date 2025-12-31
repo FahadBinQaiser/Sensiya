@@ -17,35 +17,29 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <span className="text-3xl text-white">
-                <a to="/">Sensiya</a>
+                <a href="/">Sensiya</a>
               </span>
             </div>
 
             <div className="hidden md:block">
               <div className="ml-10 flex font-normal items-baseline space-x-8 ibm-plex-sans">
                 <a
-                  to="/analyze"
+                  href="#analyze"
                   className="text-white hover:text-[#d40000] transition-colors duration-200"
                 >
                   Analyze
                 </a>
                 <a
-                  to="/"
+                  href="#pricing"
                   className="text-white hover:text-[#d40000] transition-colors duration-200"
-                >
-                  Reviews
-                </a>
-                <a
-                  to="/"
-                  className="text-white hover:text-[#d40000] transition-colors duration-200 "
                 >
                   Pricing
                 </a>
                 <a
-                  to="/"
+                  href="#process"
                   className="text-white hover:text-[#d40000] transition-colors duration-200 "
                 >
-                  Contact
+                  Process
                 </a>
               </div>
             </div>

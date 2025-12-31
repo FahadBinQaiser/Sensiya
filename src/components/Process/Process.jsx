@@ -28,7 +28,10 @@ export default function Process() {
   ];
 
   return (
-    <section className="relative bg-zinc-950 py-24 overflow-hidden">
+    <section
+      id="process"
+      className="relative bg-zinc-950 py-24 overflow-hidden"
+    >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(209,43,39,0.08),transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(209,43,39,0.05),transparent_50%)]" />
 
