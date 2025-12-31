@@ -4,8 +4,8 @@ const HeroSection = () => {
   return (
     <section className="herosection h-screen flex justify-center items-center">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-12 place-items-center">
-          <div className="leftSide text-center xl:text-left">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 place-items-center">
+          <div className="leftSide text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-balance text-white mb-6">
               Your landing page is{" "}
               <span className="text-[#D12B27]">burning your CAC</span>
@@ -17,7 +17,7 @@ const HeroSection = () => {
               visitors into bookings.
             </p>
 
-            <button className="cursor-pointer group bg-[#D12B27] text-white hover:bg-white hover:text-[#D12B27] drop-shadow-2xl px-8 py-4 rounded-full text-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2 mx-auto xl:mx-0">
+            <button className="cursor-pointer group bg-[#D12B27] text-white hover:bg-white hover:text-[#D12B27] drop-shadow-2xl px-8 py-4 rounded-full text-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2 mx-auto lg:mx-0">
               <span>Get Your Free Audit</span>
               <svg
                 className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200"
