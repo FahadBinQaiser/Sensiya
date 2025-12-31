@@ -101,7 +101,7 @@ const Pricing = () => {
                 {plan.features.map((feature, featureIndex) => (
                   <li
                     key={featureIndex}
-                    className="flex items-start gap-3 text-zinc-300"
+                    className="flex items-start gap-3 text-zinc-400"
                   >
                     <svg
                       className={`w-5 h-5 flex-shrink-0 mt-0.5 ${
