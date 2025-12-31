@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,40 +13,40 @@ const Navbar = () => {
   return (
     <header>
       <nav className="fixed top-0 w-full backdrop-blur-md z-50 pt-3">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <span className="text-3xl text-white">
-                <Link to="/">Sensiya</Link>
+                <a to="/">Sensiya</a>
               </span>
             </div>
 
             <div className="hidden md:block">
               <div className="ml-10 flex font-normal items-baseline space-x-8 ibm-plex-sans">
-                <Link
-                  to="/"
+                <a
+                  to="/analyze"
                   className="text-white hover:text-[#d40000] transition-colors duration-200"
                 >
-                  Features
-                </Link>
-                <Link
+                  Analyze
+                </a>
+                <a
                   to="/"
                   className="text-white hover:text-[#d40000] transition-colors duration-200"
                 >
                   Reviews
-                </Link>
-                <Link
+                </a>
+                <a
                   to="/"
                   className="text-white hover:text-[#d40000] transition-colors duration-200 "
                 >
                   Pricing
-                </Link>
-                <Link
+                </a>
+                <a
                   to="/"
                   className="text-white hover:text-[#d40000] transition-colors duration-200 "
                 >
                   Contact
-                </Link>
+                </a>
               </div>
             </div>
 
@@ -84,34 +83,34 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden h-screen overflow-y-hidden bg-white/95 backdrop-blur-3xl border-t border-gray-100">
             <div className="px-2 pt-4 pb-6 text-3xl space-y-4 flex flex-col">
-              <Link
+              <a
                 to="/"
                 onClick={toggleMenu}
                 className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
               >
                 Features
-              </Link>
-              <Link
+              </a>
+              <a
                 to="/"
                 onClick={toggleMenu}
                 className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
               >
                 Reviews
-              </Link>
-              <Link
+              </a>
+              <a
                 to="/"
                 onClick={toggleMenu}
                 className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
               >
                 Pricing
-              </Link>
-              <Link
+              </a>
+              <a
                 to="/"
                 onClick={toggleMenu}
                 className="px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium"
               >
                 Contact
-              </Link>
+              </a>
 
               <div className="pt-4 space-y-2 px-3 ibm-plex-sans">
                 <button className="w-full text-left text-gray-700 hover:text-indigo-600 transition-colors duration-200 font-medium">
