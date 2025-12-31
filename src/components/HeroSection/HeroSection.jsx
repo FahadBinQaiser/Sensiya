@@ -2,22 +2,22 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="herosection flex justify-center items-center min-h-screen bg-[#F8F9FA]">
-      <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="leftSide">
-            <h1 className="text-5xl font-bold text-balance md:text-6xl lg:text-7xl text-white mb-6">
+    <section className="herosection h-screen flex justify-center items-center">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 place-items-center items-center">
+          <div className="leftSide text-center lg:text-left">
+            <h1 className="text-5xl font-bold text-balance md:text-6xl text-white mb-6">
               Your landing page is{" "}
               <span className="text-[#D12B27]">burning your CAC</span>
             </h1>
 
-            <p className="text-base text-balance sm:text-lg md:text-xl text-white mb-10 leading-relaxed">
+            <p className="text-base text-balance text-white mb-10 leading-relaxed">
               Early-stage SaaS teams waste thousands on ads while generic hero
               sections kill their demos. Build sections that actually convert
               visitors into bookings.
             </p>
 
-            <button className="cursor-pointer group bg-[#D12B27] text-white hover:bg-white hover:text-[#D12B27] drop-shadow-2xl px-8 py-4 rounded-full text-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2">
+            <button className="cursor-pointer group bg-[#D12B27] text-white hover:bg-white hover:text-[#D12B27] drop-shadow-2xl px-8 py-4 rounded-full text-lg hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center space-x-2 mx-auto lg:mx-0">
               <span>Get Your Free Audit</span>
               <svg
                 className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200"
