@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LowRadialGradient from "../../UIComponents/LowRadialGradient.jsx";
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -37,8 +38,7 @@ const Faq = () => {
 
   return (
     <section className="relative bg-black py-20 overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(209,43,39,0.08),transparent_50%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(209,43,39,0.05),transparent_50%)]" />
+      <LowRadialGradient />
 
       <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
         <div className="mb-16 text-center">
@@ -51,7 +51,7 @@ const Faq = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-zinc-950 border border-zinc-800 rounded-lg overflow-hidden transition-all duration-300 hover:border-[#D12B27]/30"
+              className="bg-zinc-950 border border-gray-600 rounded-lg overflow-hidden transition-all duration-300 hover:border-[#D12B27]/30"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
