@@ -48,7 +48,7 @@ export default function Analyze() {
             {analysisCategories.map((category, index) => (
               <div
                 key={index}
-                className="group relative p-8 md:p-12 transition-all duration-300 hover:bg-zinc-950/50 border border-zinc-600 md:border-0 rounded-lg md:rounded-none mb-6 md:mb-0 last:mb-0"
+                className="group relative p-8 md:p-12 transition-all duration-300 hover:bg-zinc-800/50 border border-zinc-600 md:border-0 rounded-lg md:rounded-none mb-6 md:mb-0 last:mb-0"
               >
                 <h4 className="text-2xl md:text-3xl font-bold text-white mb-6">
                   {category.title}
