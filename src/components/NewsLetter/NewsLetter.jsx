@@ -34,13 +34,13 @@ const Newsletter = () => {
               value={url}
               onChange={(e) => setUrl(e.target.value)}
               placeholder="Enter your landing page URL"
-              className="flex-1 px-6 py-4 bg-zinc-950 border border-zinc-800 rounded-lg text-white placeholder-zinc-500 focus:outline-none focus:border-[#D12B27] transition-all duration-200"
+              className="flex-1 px-6 py-4 bg-zinc-950 border border-zinc-600 rounded-lg text-white placeholder-zinc-500 focus:outline-none focus:border-[#D12B27] transition-all duration-200"
               required
             />
             <button
               type="submit"
               disabled={isSubmitted}
-              className="bg-[#D12B27] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#B02321] transition-all duration-200 disabled:opacity-50 whitespace-nowrap"
+              className="bg-white text-[#D12B27] px-8 py-4 rounded-lg hover:bg-[#B02321] hover:text-white cursor-pointer transition-all duration-200 disabled:opacity-50 whitespace-nowrap"
             >
               {isSubmitted ? "Submitted ✓" : "Get Your Free Audit"}
             </button>
