@@ -90,21 +90,21 @@ const Navbar = () => {
               <a
                 href="#analyze"
                 onClick={toggleMenu}
-                className="text-2xl text-white hover:text-[#D12B27] transition-colors duration-200 font-bold"
+                className="text-2xl text-white hover:text-[#D12B27] transition-colors duration-200"
               >
                 Analyze
               </a>
               <a
                 href="#pricing"
                 onClick={toggleMenu}
-                className="text-2xl text-white hover:text-[#D12B27] transition-colors duration-200 font-bold"
+                className="text-2xl text-white hover:text-[#D12B27] transition-colors duration-200 "
               >
                 Pricing
               </a>
               <a
                 href="#process"
                 onClick={toggleMenu}
-                className="text-2xl text-white hover:text-[#D12B27] transition-colors duration-200 font-bold"
+                className="text-2xl text-white hover:text-[#D12B27] transition-colors duration-200 "
               >
                 Process
               </a>
@@ -112,7 +112,7 @@ const Navbar = () => {
               <div className="pt-4">
                 <button
                   onClick={toggleMenu}
-                  className="w-full bg-[#D12B27] text-white font-bold px-8 py-4 rounded-full hover:bg-white hover:text-[#D12B27] transition-all duration-200"
+                  className="w-full bg-[#D12B27] text-white px-8 py-4 rounded-full hover:bg-white hover:text-[#D12B27] transition-all duration-200"
                 >
                   Get Your Free Audit
                 </button>
