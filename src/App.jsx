@@ -1,6 +1,5 @@
 import React from "react";
 import SmoothScrollWrapper from "./components/LenisJS/SmoothScrollWrapper.jsx";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar.jsx";
 import HeroSection from "./components/HeroSection/HeroSection.jsx";
 import Problems from "./components/Problems/Problems.jsx";
@@ -18,37 +17,20 @@ import { useSmoothScroll } from "./hooks/useSmoothScroll.js";
 function App() {
   return (
     <SmoothScrollWrapper>
-      <BrowserRouter>
-        <div className="min-h-screen bg-white">
-          <Navbar />
-
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <>
-                  <HeroSection />
-                  <Problems />
-                  <Solution />
-                  <Analyze />
-                  <Process />
-                  {/* <Features /> */}
-                  <Testimonials />
-                  <Pricing />
-                  <NewsLetter />
-                  <Faq />
-                </>
-              }
-            />
-            <Route path="/features" element={<Features />} />
-            <Route path="/testimonials" element={<Testimonials />} />
-            <Route path="/pricing" element={<Pricing />} />
-            <Route path="/newsletter" element={<NewsLetter />} />
-          </Routes>
-
-          <Footer />
-        </div>
-      </BrowserRouter>
+      <Navbar />
+      <>
+        <HeroSection />
+        <Problems />
+        <Solution />
+        <Analyze />
+        <Process />
+        {/* <Features /> */}
+        <Testimonials />
+        <Pricing />
+        <NewsLetter />
+        <Faq />
+        <Footer />
+      </>
     </SmoothScrollWrapper>
   );
 }
