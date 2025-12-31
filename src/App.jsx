@@ -41,7 +41,7 @@ function App() {
           <Route path="/newsletter" element={<NewsLetter />} />
         </Routes>
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </BrowserRouter>
   );
