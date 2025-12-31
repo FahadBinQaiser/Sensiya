@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="bg-black py-6">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col items-center text-center">
-          <div className="mb-8">
+          <div className="mb-3">
             <span className="text-5xl sm:text-7xl font-black text-white">
               Sensiya
             </span>
