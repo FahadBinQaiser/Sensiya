@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="herosection h-screen flex justify-center items-center">
+    <section className="herosection h-full xl:h-screen py-20 flex justify-center items-center">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 place-items-center">
           <div className="leftSide text-center lg:text-left">
