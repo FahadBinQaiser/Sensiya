@@ -9,6 +9,8 @@ Sensiya is a modern and responsive landing page built using
 ⚪ Vite.  
 ⚪ React.  
 ⚪ Tailwind CSS.
+⚪ Lenis JS
+⚪ GSAP
 
 ## Features
 
