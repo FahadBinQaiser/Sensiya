@@ -12,14 +12,18 @@ Sensiya is a modern and responsive landing page built using
 ⚪ Lenis JS
 ⚪ GSAP
 
-## Features
+## Total sections
 
 - Navbar section
 - Hero section
-- Features section
-- Testimonials section
+- Problem section
+- Solution section
+- Analyze section
+- Process section
+- Testimonial section
 - Pricing section
 - Newsletter section
+- Faq section
 - Footer section
 
 ## Deployment
