@@ -40,7 +40,7 @@ const Newsletter = () => {
             <button
               type="submit"
               disabled={isSubmitted}
-              className="bg-[#D12B27] text-white px-8 py-4 rounded-lg font-bold hover:bg-[#B02321] transition-all duration-200 disabled:opacity-50 whitespace-nowrap"
+              className="bg-white text-[#D12B27] px-8 py-4 rounded-lg hover:bg-[#B02321] hover:text-white cursor-pointer transition-all duration-200 disabled:opacity-50 whitespace-nowrap"
             >
               {isSubmitted ? "Submitted ✓" : "Get Your Free Audit"}
             </button>
