@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className="fixed top-0 w-full backdrop-blur-md z-50 pt-3">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <span className="text-3xl font-black text-white">
