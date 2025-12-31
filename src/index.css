@@ -4,6 +4,7 @@
 body {
   font-family: "Stack Sans Headline", sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .stack-sans-headline {
