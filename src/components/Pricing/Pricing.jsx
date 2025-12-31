@@ -16,7 +16,7 @@ const Pricing = () => {
         "72-hour delivery",
       ],
       cta: "Get Your Free Audit",
-      highlighted: true,
+      highlighted: false,
     },
     {
       name: "Implementation",
@@ -32,7 +32,7 @@ const Pricing = () => {
         "14-day delivery",
       ],
       cta: "Get Implementation",
-      highlighted: false,
+      highlighted: true,
     },
     {
       name: "Optimization Retainer",
