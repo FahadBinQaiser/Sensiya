@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/react";
 import SmoothScrollWrapper from "./components/LenisJS/SmoothScrollWrapper.jsx";
 import Navbar from "./components/navbar/Navbar.jsx";
 import HeroSection from "./components/HeroSection/HeroSection.jsx";
@@ -31,6 +32,7 @@ function App() {
         <Faq />
         <Footer />
       </>
+      <Analytics />
     </SmoothScrollWrapper>
   );
 }
