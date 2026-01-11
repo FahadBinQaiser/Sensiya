@@ -33,6 +33,7 @@ function App() {
         <Footer />
         <Analytics />
       </>
+      <Analytics />
     </SmoothScrollWrapper>
   );
 }
